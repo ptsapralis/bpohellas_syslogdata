@@ -1,0 +1,10 @@
+update syslogdata set slrectypeid=2 where slrectypeid=1 and slmsg like '%login%failed%invalid%user%name%';
+update syslogdata set slrectypeid=3 where slmsg like '%DHCP%statistics%';
+update syslogdata set slrectypeid=4 where slmsg like '%Login disabled from IP%' and slmsg like '%exceed%limit%';
+update syslogdata set slrectypeid=5 where slrectypeid=1 and slmsg like '%reputation%purge%' and slmsg like '%Completed%reputation%db%maintenance%';
+update syslogdata set slrectypeid=6 where slrectypeid=1 and slmsg like '%type=traffic%srcip=%srcport=%srcintf=%dstip=%dstport=%dstintf=%sessionid=%status=%policyid=%dstcountry=%srccountry=%service=%proto=%app=%duration=%sentbyte=%rcvdbyte%';
+update syslogdata set slrectypeid=7 where slrectypeid=1 and slmsg like '%type=traffic%' and slmsg not like '%srcport=%dstport=%';
+update syslogdata set slrectypeid=8 where slrectypeid=1 and slmsg like '%Performance%statistics%';
+update syslogdata set slrectypeid=10 where slrectypeid=1 and slmsg like '%subtype=vpn%action=%tunneltype=%tunnel_id%remote_ip%tunnel_ip%user=%group=%dst_host=%alert=%';
+update syslogdata set slrectypeid=11 where slrectypeid=1 and slmsg like '%action=delete%';
+update syslogdata set slrectypeid=12 where slrectypeid=1 and slmsg like '%clash%';

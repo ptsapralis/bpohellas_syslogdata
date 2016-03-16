@@ -1,0 +1,11 @@
+slrectypeid	slrectypename	slrectypecomment
+1	Unknown/Other	Unknown/Other
+2	InvalidUserName	Logon failure because of invalid user name - syslog message patterns INVALID_USER_NAME and NAME_INVALID
+3	DHCPStatistics	FORTIGATE firewall DHCP statistics
+4	LimitExceededLoginDisabled	Consequently failed logins limit exceeded - Further logins disabled
+5	ReputationPurge	Completed reputation DB maintenance
+6	PortRelatedTraffic	Pattern = _type=traffic_srcport=_dstport=_
+7	PortIndependentTraffic	Pattern Included = _type=traffic_ Pattern Excluded = _srcport=_dstport=_
+8	PerformanceStatistics	Pattern Included = _Performance_Statistics_
+9	VPNactions	Pattern Included = _subtype=vpn_reason=_
+10	VPNalerts	Pattern Included = _subtype=vpn_alert=_

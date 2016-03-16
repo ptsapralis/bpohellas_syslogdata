@@ -1,0 +1,21 @@
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('InvalidUserName','Logon failure because of invalid user name - syslog message patterns INVALID_USER_NAME and NAME_INVALID');
+insert into slrectypes (slrectypename,slrectypecomment) values ('InvalidUserName','Logon failure because of invalid user name - syslog message patterns INVALID_USER_NAME and NAME_INVALID');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('DHCPStatistics','FORTIGATE firewall DHCP statistics');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('LimitExceededLoginDisabled','Consequently failed logins limit exceeded - Further logins disabled');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('ReputationPUrge','Completed reputation DB maintenance');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('PortRelatedTraffic','Pattern = _type=traffic_srcport=_dstport=_');
+insert into slrectypes (slrectypename,slrectypecomment) values ('PortIndependentTraffic','Pattern Included = _type=traffic_ Pattern Excluded = _srcport=_dstport=_');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('PerformanceStatistics','Pattern Included = _Performance_Statistics_');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('VPNactions','Pattern Included = _subtype=vpn_reason=_');
+insert into slrectypes (slrectypename,slrectypecomment) values ('VPNalerts','Pattern Included = _subtype=vpn_alert=_');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('DeleteLogs','Pattern Included = _action=delete_');
+insert into slrectypes (slrectypename,slrectypecomment)
+insert into slrectypes (slrectypename,slrectypecomment) values ('SessionClash','Pattern Included = _clash_');

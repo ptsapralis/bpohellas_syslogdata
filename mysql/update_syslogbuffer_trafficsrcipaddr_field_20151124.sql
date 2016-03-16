@@ -1,0 +1,1 @@
+update syslogbuffer set slrec_trafficsrcipaddr=if((slrec_message like '%type=traffic%srcport=%dstport=%'),substr(slrec_message,(locate('srcip=',slrec_message)+length('srcip=')),(locate(' ',substr(slrec_message,(locate('srcip=',slrec_message)+length('srcip=')))))),'nosourceipaddress');

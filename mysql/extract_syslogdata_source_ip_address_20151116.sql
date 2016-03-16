@@ -1,0 +1,1 @@
+select if(slrectypeid=6,substr(slmsg,(locate('srcip=',slmsg)+length('srcip=')),(locate(' ',substr(slmsg,(locate('srcip=',slmsg)+length('srcip=')))))),'nosourceipaddress') as srcipaddr,slrectypeid from syslogdata limit 40;
