@@ -1,0 +1,13 @@
+12.0
+11
+1       SQLCHAR             0       32      ","    1     slrec_timestamp                                  SQL_Latin1_General_CP1_CI_AS
+2       SQLCHAR             0       32      ","    2     slrec_shortdateandtime                           SQL_Latin1_General_CP1_CI_AS
+3       SQLCHAR             0       16      ","    3     slrec_tag                                        SQL_Latin1_General_CP1_CI_AS
+4       SQLCHAR             0       16      ","    4     slrec_origin                                     SQL_Latin1_General_CP1_CI_AS
+5       SQLBIGINT           0       8       ","    5     slrec_severityid                                 ""
+6       SQLCHAR             0       32      ","    6     slrec_severitydesc                               SQL_Latin1_General_CP1_CI_AS
+7       SQLBIGINT           0       8       ","    7     slrec_facilityid                                 ""
+8       SQLCHAR             0       32      ","    8     slrec_facilitydesc                               SQL_Latin1_General_CP1_CI_AS
+9       SQLCHAR             0       20      ","    9     slrec_sourceip                                   SQL_Latin1_General_CP1_CI_AS
+10      SQLCHAR             0       32      ","    10    slrec_sourcefqdn                                 SQL_Latin1_General_CP1_CI_AS
+11      SQLCHAR             0       2048    "\r\n" 11    slrec_message                                    SQL_Latin1_General_CP1_CI_AS
