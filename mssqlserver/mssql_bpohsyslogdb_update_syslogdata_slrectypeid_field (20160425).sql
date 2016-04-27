@@ -1,0 +1,21 @@
+INSERT INTO slrectypes (slrectypename, slrectypecomment) VALUES ('Various/Other', 'Various/Other');
+INSERT INTO slrectypes (slrectypename, slrectypecomment) VALUES ('THECUSN8800PROV2MARK', 'Pattern included= _-- MARK --_');
+update slrectypes set slrectypename='Unknown',slrectypecomment='Unknown' where slrectypeid=1;
+
+update syslogdata set slrectypeid=2 where slmsg like '%login%failed%invalid%user%name%';
+update syslogdata set slrectypeid=6 where slmsg like '%type=traffic%srcport=%dstport=%';
+update syslogdata set slrectypeid=8 where slmsg like '%Performance%Statistics%';
+update syslogdata set slrectypeid=7 where slmsg like '%type=traffic%' and slmsg not like '%srcport=%dstport=%' and slrectypeid<>7;
+update syslogdata set slrectypeid=8 where slmsg like '%Performance%Statistics%' and slrectypeid=1;
+update syslogdata set slrectypeid=3 where slmsg like '%DHCP%Statistics%';
+update syslogdata set slrectypeid=4 where slmsg like '%exceed%limit%Login%disabled%';
+update syslogdata set slrectypeid=5 where slmsg like '%reputation%';
+update syslogdata set slrectypeid=9 where slmsg like '%subtype=vpn%reason%' and slrectypeid=1;
+update syslogdata set slrectypeid=10 where slrectypeid=1 and slmsg like '%subtype=vpn%alert%';
+update syslogdata set slrectypeid=11 where slrectypeid=1 and slmsg like '%action=delete%';
+update syslogdata set slrectypeid=12 where slrectypeid=1 and slmsg like '%clash%';
+update syslogdata set slrectypeid=13 where slrectypeid=1 and slmsg like '%config%changed%admin%session%';
+update syslogdata set slrectypeid=14 where slrectypeid=1 and slmsg like '%subtype=user%';
+update syslogdata set slrectypeid=16 where slrectypeid=1 and slmsg like '%subtype=system%';
+update syslogdata set slrectypeid=17 where slrectypeid=1 and slmsg like '%-- MARK --%';
+update syslogdata set slrectypeid=18 where slrectypeid=1;
