@@ -1,0 +1,18 @@
+slrectypeid	slrectypename	slrectypecomment
+1	Unknown	Unknown
+2	InvalidUserName	Pattern Included = _login_failed_invalid_user_name_
+3	DHCPStatistics	FORTIGATE firewall DHCP statistics
+4	LimitExceededLoginDisabled	Consequently failed logins limit exceeded - Further logins disabled
+5	ReputationPurge	Completed reputation DB maintenance
+6	PortRelatedTraffic	Pattern Included = _type=traffic_srcport=_dstport=_
+7	PortIndependentTraffic	Pattern Included = _type=traffic_ Pattern Excluded = _srcport=_dstport=_
+8	PerformanceStatistics	Pattern Included = _Performance_Statistics_
+9	VPNactions	Pattern Included = _subtype=vpn_reason=_
+10	VPNalerts	Pattern Included = _subtype=vpn_alert=_
+11	DeleteLogs	Pattern Included = _action=delete_
+12	SessionClash	Pattern Included = _clash_
+13	AdminSessionConfig	Pattern Included = _Config_changed_admin_session_
+14	UserEvents	Pattern Included = _subtype=user_
+16	SystemEvents	Pattern Included = _subtype=system_
+17	THECUSN8800PROV2MARK	Pattern included= _-- MARK --_
+18	Various/Other	Various/Other
