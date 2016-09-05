@@ -29,8 +29,6 @@ GO
 -- ----------------------------
 --  Records of [dbo].[slrectypes]
 -- ----------------------------
-BEGIN TRANSACTION
-GO
 SET IDENTITY_INSERT [dbo].[slrectypes] ON
 GO
 INSERT INTO [dbo].[slrectypes] ([slrectypeid], [slrectypename], [slrectypecomment]) VALUES ('1', 'Unknown', 'Unknown');
@@ -53,8 +51,6 @@ INSERT INTO [dbo].[slrectypes] ([slrectypeid], [slrectypename], [slrectypecommen
 GO
 SET IDENTITY_INSERT [dbo].[slrectypes] OFF
 GO
-COMMIT
-GO
 
 
 -- ----------------------------
@@ -75,4 +71,3 @@ ALTER TABLE [dbo].[slrectypes] SET (LOCK_ESCALATION = TABLE)
 GO
 DBCC CHECKIDENT ('[dbo].[slrectypes]', RESEED, 18)
 GO
-
